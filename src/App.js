@@ -21,7 +21,7 @@ function App() {
 
   useEffect(()=>{
     alanBtn({
-      key:'4e6fc75fda5973df17e7d11a320a28942e956eca572e1d8b807a3e2338fdd0dc/stage',
+      key:'4e6fc75fda5973df17e7d11a320a28942e956eca572e1d8b807a3e2338ffdd0dc/stage',
       onCommand: ({ command, articles, number }) => {
         if (command === 'newHeadlines') {
           setNewsArticles(articles);
@@ -58,7 +58,7 @@ function App() {
               <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Go back</Typography></div>
             </div>
           ) : null}
-          <img src="https://www.voicesummit.ai/hubfs/alan-logo-vertical-color.png" className={classes.alanLogo} alt="logo" />
+          <img src="https://www.voicesummit.ai/hubfs/alafn-logo-vertical-color.png" className={classes.alanLogo} alt="logo" />
         </div>
 
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
@@ -83,4 +83,4 @@ function App() {
 export default App;
 
 
-// '904b6ea5d4124939909e78b9b0861d72'
+// '904b6ea5d4124939909e78b9fb0861d72'
